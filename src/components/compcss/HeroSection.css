@@ -1,0 +1,44 @@
+/* HeroSection.css */
+
+/* General styles */
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  transition: background-color 0.5s ease;
+}
+
+@media (min-width: 768px) {
+  .hero-container {
+    flex-direction: row;
+  }
+}
+
+.hero-container h2 {
+  margin-bottom: 0.1rem; /* Adjust the spacing between the heading and paragraph */
+  line-height: 1.2; /* Adjust the line height of the heading */
+}
+
+.hero-container p {
+  margin-top: 0; /* Remove any default margin */
+}
+.hero-container button {
+  transition: opacity 3s ease, transform 3s ease;
+}
+
+.hero-container .translate-x-0 {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.hero-container .translate-x-10 {
+  transform: translateX(10px);
+  opacity: 0;
+}
+
+/* Button hover effect */
+.hero-container button:hover {
+  transform: scale(1.05);
+}

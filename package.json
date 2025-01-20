@@ -1,0 +1,63 @@
+{
+  "name": "ez-care",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/typography": "^0.5.16",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
+    "@testing-library/user-event": "^14.6.0",
+    "axios": "^1.7.9",
+    "cra-template": "1.2.0",
+    "ez-care": "file:",
+    "framer-motion": "^11.18.0",
+    "lottie-react": "^2.4.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.54.2",
+    "react-icons": "^5.4.0",
+    "react-intersection-observer": "^9.15.0",
+    "react-lottie": "^1.2.10",
+    "react-modal": "^3.16.3",
+    "react-router-dom": "^7.1.1",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.9.0",
+    "react-slick": "^0.30.3",
+    "react-spring": "^9.7.5",
+    "slick-carousel": "^1.8.1",
+    "web-vitals": "^4.2.4"
+  },
+  "scripts": {
+    "start": "concurrently \"npm run start-react\" ",
+    "start-react": "react-scripts start",
+    "start-backend": "node ../backend/index.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "concurrently": "^7.6.0",
+    "tailwindcss": "^3.4.17"
+  }
+}
