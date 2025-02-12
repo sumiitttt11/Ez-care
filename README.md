@@ -26,5 +26,14 @@ Ensure you have the following installed:
 
 #### 1️⃣ Clone the Repository  
 ```sh
-git clone https://github.com/your-username/ez-care.git  
-cd ez-care  
+git clone https://github.com/sumiitttt11/Ez-care.git  
+cd ez-care
+```
+#### 2️⃣ Install Dependencies
+```sh
+npm install
+```
+#### 3️⃣ Run Project 
+```sh
+npm start
+```
