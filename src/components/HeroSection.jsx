@@ -67,7 +67,7 @@ function HeroSection() {
             className="px-6 py-3 bg-gray-200 text-gray-700 dark:bg-gray-700 dark:text-gray-200 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-600 transform transition-transform duration-300 delay-500 shadow-lg hover:scale-105"
           >
             <Link
-              to="https://sumit-kumawat.vercel.app"
+              to="https://sumitkumawat.vercel.app"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-blue-300"
