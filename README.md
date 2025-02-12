@@ -37,3 +37,37 @@ npm install
 ```sh
 npm start
 ```
+#### 4️⃣ That's it:
+```sh
+The application will be running at http://localhost:3000.
+```
+
+## 🤝 Contributing
+- Fork the repository
+- Create a new branch (git checkout -b feature-name)
+- Commit your changes (git commit -m "Added new feature")
+- Push to the branch (git push origin feature-name)
+- Open a pull request
+
+---
+```sh
+On a mission to save Gotham City 🦇
+#### 3️⃣ Run Project 
+```sh
+npm start
+```
+#### 4️⃣ That's it:
+```sh
+The application will be running at http://localhost:3000.
+```
+
+## 🤝 Contributing
+- Fork the repository
+- Create a new branch (git checkout -b feature-name)
+- Commit your changes (git commit -m "Added new feature")
+- Push to the branch (git push origin feature-name)
+- Open a pull request
+
+---
+```sh
+On a mission to save Gotham City 🦇
